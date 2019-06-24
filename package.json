@@ -1,5 +1,5 @@
 {
-  "name": "dom-simulation",
+  "name": "dom-sim",
   "version": "1.0.0",
   "description": "Simulate changes and events in the DOM",
   "main": "src/index.js",
@@ -16,12 +16,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/nbeach/TODO.git"
+    "url": "git://github.com/nbeach/dom-sim.git"
   },
   "author": "Nicholas Beach <nicholas.c.beach@gmail.com> (http://nicholasbeach.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nbeach/TODO/issues"
+    "url": "https://github.com/nbeach/dom-sim/issues"
   },
   "keywords": [
     "dom",
@@ -32,7 +32,7 @@
   "scripts": {
     "clean": "rimraf src/**/*.js src/**/*.js.map src/**/*.d.ts",
     "build": "npm run clean && tsc",
-    "release": "npm run test:browsers && npm run build && npm publish && npm run clean",
+    "release": "npm run test && npm run build && npm publish && npm run clean",
     "test": "mocha --opts mocha.opts --watch",
     "test:coverage": "nyc mocha --opts mocha.opts",
     "lint": "tslint --project .",
