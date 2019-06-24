@@ -76,7 +76,7 @@ describe("DOM", () => {
         `) as HTMLInputElement
         const [first] = Array.from(element.children) as HTMLInputElement[]
 
-        setCheckboxValue(first, true)
+        setRadioButton(first, true)
         expect(first.checked).to.equal(true)
     })
 

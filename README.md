@@ -1,4 +1,4 @@
-# dom-sim &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nbeach/dom-sim/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/dom-sim.svg?style=flat)](https://www.npmjs.com/package/dom-sim) [![Build Status](https://travis-ci.org/nbeach/dom-sim.svg?branch=master)](https://travis-ci.org/nbeach/dom-sim) [![Coverage Status](https://coveralls.io/repos/github/nbeach/dom-sim/badge.svg?branch=master)](https://coveralls.io/github/nbeach/dom-sim?branch=master)
+# dom-sim &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nbeach/dom-sim/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/dom-sim.svg?style=flat)](https://www.npmjs.com/package/dom-sim) [![Build Status](https://travis-ci.org/nbeach/dom-sim.svg?branch=master)](https://travis-ci.org/nbeach/dom-sim)
 
 dom-sim allows you to simulate user interaction with your interface by firing DOM events and changing input values.
 

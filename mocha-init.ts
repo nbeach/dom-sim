@@ -1,4 +1,9 @@
-import "./test-shim"
+import * as chai from "chai"
+import * as sinonChai from "sinon-chai"
+import * as chaiDom from "chai-dom"
+
+chai.use(sinonChai)
+chai.use(chaiDom)
 
 const JSDOM = require("jsdom").JSDOM
 const window = new JSDOM("<!doctype html><html><body></body></html>").window as any;
